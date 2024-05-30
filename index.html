@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="assets/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="assets/newcss.css" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="cursor: url('pointer.cur'),pointer;">
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Dani Richard</a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list grid">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">
+              <i class="uil uil-estate nav__icon"></i>Home
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">
+              <i class="uil uil-user nav__icon"></i>About
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">
+              <i class="uil uil-file-alt nav__icon"></i>Skills
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#qualification" class="nav__link">
+              <i class="uil uil-briefcase-alt nav__icon"></i>Qualification
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#portfolio" class="nav__link">
+              <i class="uil uil-scenery nav__icon"></i>Projects
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">
+              <i class="uil uil-message nav__icon"></i>Contact-Me
+            </a>
+          </li>
+        </ul>
+        <i class="uil uil-times nav__close" id="nav-close"></i>
+      </div>
+      <div class="nav__btns">
+        <!-- Theme change button -->
+        <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="uil uil-apps"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- main-->
+
+  <main class="main">
+    <!--========================= Home =====================-->
+
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__content grid">
+          <div class="home__social">
+            <a href="https://www.linkedin.com/in/dani016/" target="_blank" class="home__social-icon">
+              <i class="uil uil-linkedin-alt home__icon"></i>
+            </a>
+
+            <a href="https://github.com/" target="_blank" class="home__social-icon">
+              <i class="uil uil-github-alt home__icon"></i>
+            </a>
+          </div>
+          <div class="home__img">
+            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
+              <mask id="mask0" mask-type="alpha">
+                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                      130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                      97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                      0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+              </mask>
+              <g mask="url(#mask0)">
+                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                      165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                      129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                     -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                <image class="home__blob-img" x="-84.5" y="-60" xlink:href="assets/img/dani_img_main.jpg" Height="300px"
+                  width="300px" />
+              </g>
+            </svg>
+          </div>
+          <div class="home__data">
+            <h1 class="home__title">Hi, I'm Dani Richard</h1>
+            <h3 class="home__subtitle">
+              Aspiring student with a solid understanding of software development principles and technologies. Seeking
+              an opportunity to apply
+              my knowledge and contribute to the success of a forward-thinking company. Dedicated to learning and
+              adapting to new challenges
+              while delivering high-quality solutions.
+            </h3>
+            <p class="home__description">
+              currently looking for opportunities in software development
+              as a <strong>Software Developer or a Wb Developer</strong>
+            </p>
+            <a href="#contact" class="button button--flex">
+              Contact me<i class="uil uil-message button__icon"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="home__scroll">
+          <a href="#about" class="home__scroll-button button--flex">
+            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+            <span class="home__scroll-name">Scroll down</span>
+            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--======================= About========================-->
+
+    <section class="about section" id="about">
+      <h2 class="section__title">About Me</h2>
+      <span class="section__subtitle">My introduction</span>
+
+      <div class="about__container container grid">
+        <img src="assets\img/dani_img-1.jpg" alt="" class="about__img" />
+
+        <div class="about__data">
+          <p class="about__description">
+            An enthusiastic programmer skilled.
+            <b>Good programming Knowledge and Full Stack python development</b>
+            have always been my fields of interest. I'm very much passionate
+            to learn new stuffs that interests me and can help me to get
+            better.
+          </p>
+
+          <div class="about__info">
+            <div>
+              <span class="about__info-title">08.65+</span>
+              <span class="about__info-name">Aggregate <br />CGPA</span>
+            </div>
+
+            <div>
+              <span class="about__info-title">(Fresher)</span>
+              <span class="about__info-name">Internship <br />experience</span>
+            </div>
+          </div>
+
+          <div class="about__buttons">
+            <a href="https://drive.google.com/file/d/1Dlapy2BgZW1RkbCfFsga1mE75N6aqhLe/view?usp=drive_link"
+              class="button button--flex">
+              Download CV<i class="fas fa-download button__icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--===================== SKILLS =====================-->
+
+    <section class="skills section" id="skills">
+      <h2 class="section__title">Skills</h2>
+      <span class="section__subtitle">My technical level</span>
+
+      <div class="skills__container container grid">
+        <div>
+          <!--==================== Skill 1 =================-->
+          <div class="skills__content skills__open">
+            <div class="skills__header">
+              <i class="fas fa-pencil-ruler skills__icon"></i>
+
+              <div>
+                <h1 class="skills__title">Programming Languages</h1>
+              </div>
+
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Python Language</h3>
+                  <span class="skills__nuber">95%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage " style="width: 95%;"></span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">C Language</h3>
+                  <span class="skills__nuber">65%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage " style="width: 65%;"></span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name"> Java Script</h3>
+                  <span class="skills__nuber">75%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 75%;"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--==================== Skill 2 =================-->
+          <div class="skills__content skills__close">
+            <div class="skills__header">
+              <i class="fas fa-code skills__icon"></i>
+
+              <div>
+                <h1 class="skills__title">DataBase & IT Constructs</h1>
+              </div>
+
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">OOPs concept</h3>
+                  <span class="skills__nuber">75%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 75%;"></span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Git&github</h3>
+                  <span class="skills__nuber">50%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 50%;"></span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">PostgreSQL</h3>
+                  <span class="skills__nuber">70%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage " style="width: 70%;"></span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">My Sql</h3>
+                  <span class="skills__nuber">65%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 65%;"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <!--==================== Skill 3 =================-->
+          <div class="skills__content skills__close">
+            <div class="skills__header">
+              <i class="fas fa-swatchbook skills__icon"></i>
+              <div>
+                <h1 class="skills__title">Technologies & Frame works</h1>
+              </div>
+
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">HTML</h3>
+                  <span class="skills__nuber">85%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage " style="width:85%"></span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">CSS</h3>
+                  <span class="skills__nuber">75%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage " style="width: 75%;"></span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Django</h3>
+                  <span class="skills__nuber">75%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 75%;"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== Qualifications ==================-->
+
+    <section class="qualification__section service__section" id="qualification">
+      <h2 class="section__title">Qualification</h2>
+      <span class="section__subtitle">My personal journey</span>
+
+      <div class="qualification__container container grid services__container">
+        <div class="qualification__tabs">
+          <div class="qualification__button button--flex qualification__active" data-target="#education">
+            <i class="uil uil-graduation-cap qualification__icon"></i>
+            Education
+          </div>
+        </div>
+
+        <div class="qualification__sections">
+          <!--====== Qualification Content 1 ======-->
+          <div class="qualification__content qualifiation__active services__content" data-content id="education">
+            <!--====== Qualification 1 ======-->
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">
+                  Bachelor of Computer Applications(BCA)
+                </h3>
+                <span class="qualification__subtitle"></span>
+                <br />Nandha Arts and Science College , Erode </span>
+                <div class="qualification__calender">
+                  <i class="uil uil-calendar-alt"></i>
+                  2021 - 2024
+                </div>
+                <span class="button button--flex button--small button--link services__button">
+                  View More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </span>
+                <div class="services__modal">
+                  <div class="services__modal-content">
+                    <h4 class="services__modal-title">
+                      BCA Summary :
+                    </h4>
+                    <i class="uil uil-times services__modal-close"></i>
+                    <ul class="services__modal-services grid">
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__moda-icon"></i>
+                        <p>
+                          Subjects were studied: C , C++ , Java , Python , Oracle , Network , OS
+                        </p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__moda-icon"></i>
+                        <p>Scored 86%</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+            </div>
+
+            <!--====== Qualification 2 ======-->
+            <div class="qualification__data">
+              <div></div>
+
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+              <div>
+                <h3 class="qualification__title">12th Class</h3>
+                <span class="qualification__subtitle">
+                  <br />APS Academy School</span>
+                <div class="qualification__calender">
+                  <i class="uil uil-calendar-alt"></i>
+                  2019 - 2021
+                </div>
+                <span class="button button--flex button--small button--link services__button">
+                  View More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </span>
+                <div class="services__modal">
+                  <div class="services__modal-content">
+                    <h4 class="services__modal-title">
+                      12th Summary :
+                    </h4>
+                    <i class="uil uil-times services__modal-close"></i>
+                    <ul class="services__modal-services grid">
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__moda-icon"></i>
+                        <p>
+                          Subjects were studied:Tamil , English , Computer Applications , Commerce , Economics ,
+                          Accountancy
+                        </p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__moda-icon"></i>
+                        <p>Scored 93%</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--====== Qualification 3 ======-->
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">10th class</h3>
+                <span class="qualification__subtitle">
+                  APS Academy School
+                </span>
+                <div class="qualification__calender">
+                  <i class="uil uil-calendar-alt"></i>
+                  2018 - 2019
+                </div>
+                <span class="button button--flex button--small button--link services__button">
+                  View More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </span>
+                <div class="services__modal">
+                  <div class="services__modal-content">
+                    <h4 class="services__modal-title">
+                      10th Summary :
+                    </h4>
+                    <i class="uil uil-times services__modal-close"></i>
+                    <ul class="services__modal-services grid">
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__modal-icon"></i>
+                        <p>
+                          Subjects were Studied : Tamil , English , Maths , Science , Social Science
+                        </p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__modal-icon"></i>
+                        <p>Scored 90%</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <span class="qualification__rounder"></span>
+                <!--<span class="qualification__line"></span>-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=================== Portfolio ===================-->
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section__title">Projects</h2>
+      <span class="section__subtitle">Most recent work</span>
+
+      <div class="portfolio__container container swiper-container">
+        <div class="swiper-wrapper">
+
+
+
+          <!-- ------------------------portfollio -------------------- -->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/car-rental.webp" class="portfolio__img" />
+
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">
+                CAR RENTAL MANAGEMENT SYSTEM
+              </h3>
+              <p class="portfolio__description">
+              <ul>
+                <li> ▪ Developed a comprehensive web-based application for managing car rental operations, including
+                  booking, inventory management, customer management.</li>
+                <li>
+                  ▪ Designed and implemented the user interface for browsing available cars, making reservations, and
+                  managing bookings, focusing on usability and accessibility by using HTML,CSS.
+                </li>
+                <li>
+                  ▪ Designed and developed the backend architecture using Django(Python). It is my Final Year Project
+                </li>
+              </ul>
+              </p>
+            </div>
+          </div>
+          <!--------------------foodie.png------------------------->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/foodie.jpg" class="portfolio__img" />
+
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">
+                Food Ordering Website
+              </h3>
+              <p class="portfolio__description">
+                ▪ Developed a comprehensive website for a restaurant to facilitate order placing and stock management.
+                <br>
+                ▪ Implemented user-friendly interfaces and efficient backend systems to streamline restaurant
+                operations.
+                <br>
+                ▪ Technologies used: HTML, CSS, JS, Django, Python, PostgreSQL
+              </p>
+            </div>
+          </div>
+          <!------------------------------------------------------------->
+
+          <!-- add arrows -->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+          <!-- add pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!--===================== Contact Me =====================-->
+    <section class="contact section" id="contact">
+      <h2 class="section__title">Contact Me</h2>
+      <span class="section__subtitle">Get in touch</span>
+
+      <div style="width: 100%; display:flex;align-items: center;justify-content: center;">
+        <div style="width: 50%; " class="glass-bg">
+          <div style="display: flex;align-items: center;gap: 0.5rem;justify-content: space-between;">
+            <span style="display: flex;align-items: center;gap: 0.3rem;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-envelope-fill" viewBox="0 0 16 16">
+              <path
+                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+            </svg> Email
+            </span>
+            <span>
+              danirichard1611@gmail.com
+            </span>
+            <a href="mailto:danirichard1611@gmail.com" style="width:20%;color: aliceblue; text-align: center;background-color: rgb(27, 156, 231);padding: 0.5rem;border-radius: 0.5rem;">
+              Send A Mail
+            </a>
+          </div>
+
+          <div style="display: flex;align-items: center;gap: 0.5rem;justify-content: space-between;margin-top: 0.3rem;">
+            <span style="display: flex;align-items: center;gap: 0.3rem;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+              </svg> Phone
+            </span>
+            <span>
+              +91 88384 14982
+            </span>
+            <a href="mailto:danirichard1611@gmail.com" style="text-align: center;width:20%;color: aliceblue; background-color: rgb(27, 156, 231);padding: 0.5rem;border-radius: 0.5rem;">
+              Call
+            </a>
+          </div>
+
+          <div style="display: flex;align-items: center;gap: 0.5rem;justify-content: space-between;margin-top: 0.3rem;">
+            <span style="display: flex;align-items: center;gap: 0.3rem;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+              </svg> Linkedin
+            </span>
+            <span>
+              dani016
+            </span>
+            <a href="https://www.linkedin.com/in/dani016/" style="text-align: center;width:20%;color: aliceblue; background-color: rgb(27, 156, 231);padding: 0.5rem;border-radius: 0.5rem;">
+              Message
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <!--================== Footer ===============-->
+  <footer class="footer">
+    <div class="footer__bg">
+      <p class="footer__copy">&#169; Dani. All right reserved</p>
+    </div>
+  </footer>
+
+  <!--================== SCROLL TOP ==================-->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up scrollup__icon"></i>
+  </a>
+
+  <script type="text/javascript" src="assets/swiper-bundle.min.js"></script>
+
+  <script src="assets/ptj.js"></script>
+</body>
+
+</html>
